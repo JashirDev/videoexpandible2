@@ -27,7 +27,7 @@ public class Youtube extends YouTubeBaseActivity implements YouTubePlayer.OnInit
         }
 
         youTubePlayerView=(YouTubePlayerView)findViewById(R.id.yotube_view);
-        
+
         youTubePlayerView.initialize(claveyoutube, this);
 
 
